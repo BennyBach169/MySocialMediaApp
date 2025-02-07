@@ -1,0 +1,87 @@
+.Login {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  z-index: 1000;
+  padding: 0; /* Ensures no padding from the parent app */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.noTokenButton {
+  position: absolute;
+  left: 1rem;
+  top: 2rem;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border-radius: 25px;
+  border: none;
+}
+.noTokenButton:hover {
+  background-color: rgba(0, 0, 0, 0.721);
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  margin-top: 4rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.505);
+  border-radius: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.headerLogin {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.668);
+  margin-bottom: 2rem;
+}
+
+.form input {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+}
+
+.form button {
+  margin-top: 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  height: 2.5rem;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 10.7rem;
+}
+
+.form button:hover {
+  background-color: #0f1419cc;
+}
+
+@media (max-width: 1100px) {
+  .form input,
+  .form textarea,
+  .form select {
+    font-size: 16px;
+  }
+}

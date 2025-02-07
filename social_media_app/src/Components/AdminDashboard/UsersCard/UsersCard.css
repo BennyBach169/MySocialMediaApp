@@ -1,0 +1,9 @@
+.UsersCard {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: max-content;
+    
+    
+}

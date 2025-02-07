@@ -1,0 +1,46 @@
+.PostProfile {
+	display: flex;
+    gap: 0.5rem;
+    /* border: solid 1px black; */
+}
+.profileDetails{
+    display: flex;
+    gap: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+
+.ProfileFullName{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.ProfileFullName:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.profileImage img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.profileUserName{
+    padding-top: 1px;
+    font-size: 0.8rem;
+    color: #0f14198e;
+}
+
+.profilePostDate{
+    padding-top: 1px;
+    font-size: 0.8rem;
+    color: #0f1419c7;
+}
+

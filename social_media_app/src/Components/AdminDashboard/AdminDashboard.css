@@ -1,0 +1,23 @@
+.AdminDashboard {
+    position:absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 130vh;
+    background-color: white;
+    z-index: 1000;
+    padding: 0; /* Ensures no padding from the parent app */
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 1100px){
+.AdminDashboard{
+    min-height: 200vh;
+}
+}

@@ -1,0 +1,20 @@
+.FollwingFollwersCount {
+	display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+.follwersCount{
+    display: flex;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    
+}
+.followersText{
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.count{
+    font-weight: bold;
+}

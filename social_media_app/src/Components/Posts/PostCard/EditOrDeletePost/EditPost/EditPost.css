@@ -1,0 +1,45 @@
+.EditPost {
+	position: fixed;
+    top: 5rem;
+    left: 35%;
+    right: 35%;
+    bottom: 5rem;
+    background-color: white;
+    z-index: 1000;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.274);
+}
+
+.updatePostContent form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.contentareaedit{
+    border-radius: 25px;
+    height: 10rem;
+    font-size: 1rem;
+    resize: none;
+    width: 100%;
+    padding: 1rem;
+}
+
+@media (max-width: 1100px){
+    .EditPost{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        border-radius: unset;
+    }
+}

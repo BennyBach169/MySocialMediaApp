@@ -1,0 +1,17 @@
+.FollowUnfollow button{
+    position: absolute;
+    right: 25px;
+    top: 240px;
+    background-color: white;
+    border: 1px solid  rgba(0, 0, 0, 0.137);
+    border-radius: 25px;
+    width: 7rem;
+    height: 2.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.FollowUnfollow button:hover{
+   background-color: var(--secondary-color);
+   color: white;
+}

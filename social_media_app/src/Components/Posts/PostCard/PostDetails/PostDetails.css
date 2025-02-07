@@ -1,0 +1,57 @@
+.PostDetails {
+	display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    
+}
+
+.PostDetails div{
+	display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+
+.postDatas{
+    font-size: 0.8rem;
+    color:#0f14198c;
+}
+
+.postDatas:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.likersdisplay{
+    position: absolute;
+    top: 2;
+    left: 2;
+    right: 2;
+    bottom: 2;
+    background-color: white;
+    z-index: 1000;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.274);
+}
+
+
+@media (max-width: 1100px){
+    .likersdisplay{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        border-radius: unset;
+        width: 100%;
+        height: 100vh;
+        z-index: 1000;
+    }
+}

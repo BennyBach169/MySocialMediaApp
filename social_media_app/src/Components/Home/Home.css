@@ -1,0 +1,36 @@
+.Home {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px rgba(0, 0, 0, 0.139);
+    min-height: 100vh;
+    margin-bottom: 20rem;
+    overflow: hidden;
+    
+    
+}
+
+.homebuttons{
+    width: 100%;
+    
+}
+
+.homebutton{
+    height: 3rem;
+    width: 50%;
+    background-color: white;
+    border: solid 1px rgba(0, 0, 0, 0.075);
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #0f14198e ;
+}
+
+.homebutton:hover{
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.homebutton.active {
+    background-color:  rgba(0, 0, 0, 0.075);
+    color: var(--secondary-color);
+  }
+  

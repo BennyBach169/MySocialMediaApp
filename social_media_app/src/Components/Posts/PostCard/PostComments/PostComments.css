@@ -1,0 +1,23 @@
+.PostComments {
+	
+}
+
+.commentsButton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.commentsButton button{
+    border: none;
+    background: none;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: underline;
+}
+
+.commentsButton button:hover{
+    border: none;
+    color: black;
+    /* background-color: rgba(0, 0, 0, 0.084); */
+}

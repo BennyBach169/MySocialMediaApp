@@ -1,0 +1,130 @@
+.MenuLogInButton {
+	
+}
+
+.logginButtonsAndDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    
+}
+
+.logoutButtonsAndDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.profileCircleLogin img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+
+.firstLetter{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.userDetailsMenu{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    gap: 0.5rem;
+}
+
+.userDetailsMenu span{
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+
+}
+
+.menuSelectLogin{
+    text-decoration: none;
+    border: none;
+    width: 5rem; 
+    outline: none;
+    -webkit-appearance: none;
+    background-image: none;
+    text-align: center;
+    background: none;
+    border-radius: 5rem;
+
+}
+
+.menuSelectLogin:hover{
+    background-color: rgba(0, 0, 0, 0.059);
+    cursor: pointer;
+}
+.menuSelectLogin option{
+  font-weight: bold;
+
+}
+
+
+select:focus option.dots {
+    display: none;
+  }
+  
+
+  select option.dots {
+    color: transparent;
+  }
+  
+
+  select:not(:focus) option.dots {
+    color: transparent; 
+  }
+
+  .regLog{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 1rem;
+  }
+
+ .profileCircleLogin2{
+    height: 2rem;
+    width: 4.5rem;
+    background-color: rgba(0, 0, 0, 0.127);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    transition: 0.4s;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.534);
+ }
+
+ .profileCircleLogin2:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.726);
+ }
+
+ @media (max-width: 1100px){
+  .MenuLogInButton {
+    margin-top: 1rem;
+  }
+
+  .userDetailsMenu{
+    display: none;
+  }
+
+  #register{
+    display: none;
+    
+  }
+
+  .regLog{
+    /* margin-right: 3rem; */
+  }
+ }
