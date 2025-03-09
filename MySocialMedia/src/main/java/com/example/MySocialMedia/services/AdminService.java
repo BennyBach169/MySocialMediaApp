@@ -31,7 +31,7 @@ public class AdminService {
 
     public void login(String email , String password) throws Exception {
 
-        if(email.equals("admin0admin")&& password.equals("admin45742")){
+        if(email.equals("")&& password.equals("")){
             loggedIn=true;
         }else {
       throw new Exception("error");
